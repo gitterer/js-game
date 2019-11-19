@@ -68,10 +68,10 @@ function renderDynamicImage(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement) 
             eDynamic = 0;
             clearInterval(intervalDynamicIDDynamic);
         }
-        if(x==1000){alert(canvas.width)}
          if ( x == canvas.width - 35) {
             eDynamic = 0;
             clearInterval(intervalDynamicIDDynamic);
+            alert("Game Over");
         }
     x++
     }
