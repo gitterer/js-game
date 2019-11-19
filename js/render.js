@@ -360,7 +360,7 @@ var yStaticSpriteSize =20;
 
 invokeDraw(img,24,30,10,0 , 0 + AdjustImage ,20);
 
-renderStaticImage(imgS, 20, 20, 1, 100 , 10 + AdjustImage,1);
+renderStaticImage(imgS, xStaticSpriteSize, yStaticSpriteSize, 1, 100 , 10 + AdjustImage,1);
 renderStaticImage(imgS, xStaticSpriteSize, yStaticSpriteSize, 1, 200 , 10 + AdjustImage,1); 
 renderStaticImage(imgS, xStaticSpriteSize, yStaticSpriteSize, 1, 400 , 10 + AdjustImage,4);
 renderStaticImage(imgS, xStaticSpriteSize, yStaticSpriteSize, 1, 580 , 10 + AdjustImage,2);
