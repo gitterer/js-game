@@ -58,7 +58,7 @@ function renderDynamicImage(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement) 
             reliquitor = (reliquitor == 0) ? adjustMovement : 0;    
             adjustDynamicImage(img,spriteW,spriteH,renderSpeed , x , yStatic - adjustMovement,adjustMovement)
         }
-        var stp;
+        var stp = 0;
         for(i=0 ; i < arraySkipper.length;i++){
             if (x == xStatic[arraySkipper[i]] - 21) {
                 stp = 1;
@@ -71,7 +71,6 @@ function renderDynamicImage(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement) 
         if(x==1000){alert(canvas.width)}
          if ( x == canvas.width - 35) {
             eDynamic = 0;
-             alert()
             clearInterval(intervalDynamicIDDynamic);
         }
     x++
