@@ -359,7 +359,7 @@ var yStaticSpriteSize =20;
 
 
 // Parameters are purely editable
-//create your sprites and extend rendered interface
+
 invokeDraw(img,24,30,10,0 , 0 + AdjustImage ,20);
 
 renderStaticImage(imgS, 20, 20, 1, 100 , 10 + AdjustImage,1);
