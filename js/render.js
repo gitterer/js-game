@@ -255,8 +255,6 @@ function computeGross(_DAIFL,_VALC,arrayHolder) {
 
 
 function computeDiff(xStatic) {
-    
-    console.log(_DAIFL)
     for(i = 0; i< xStatic.length - 1; i++){
         _DIFL = xStatic[i + 1] - xStatic[i];
         _DAIFL[i] = _DIFL;
