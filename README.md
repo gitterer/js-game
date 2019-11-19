@@ -1,1 +1,2 @@
-# js-game
+# A game made in javascript
+
