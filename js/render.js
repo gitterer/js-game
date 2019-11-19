@@ -189,10 +189,8 @@ function sumNonConsective(arraydel ,argument,pos){
     var start = 0;
     for(i = pos; i< arraydel.length ;i++){
       if(arraydel[i] == argument){
-         //delete a val
             arraydel.splice(i, 1);
       }else{
-          
           break;
       }
     }
@@ -202,16 +200,12 @@ Array.detect = function() {
     var i = [];
     var j = [];
     var occ = -1;
-  
-    
     for(p =  1 ; p < arguments[0].length ; p++){
             if((arguments[0][p] - arguments[0][p -1]) == 1 ){
                 
                 i[p-1] = arguments[0][p -1];
                 j[p-1] = arguments[0][p];
             }
-        
-     //  
     }
     i = i.concat(j)
     i.sort(function(a, b) {
@@ -313,7 +307,6 @@ function renderStaticImage(img,spriteW,spriteH,staticR,x,y,length) {
         _RENDERSTATIC++;
         img.addEventListener('load',function(e)  {
         this.cycle = 0;
-        //Note to self an array in a function setinterval leads to  undefined behavior
         var intervalIDStatic = setInterval(function render() {
             staticIncrementator = 0;
             for(var i = 0; i< length ;i++){
@@ -342,9 +335,6 @@ function renderCoin(img,spriteW,spriteH,staticR,x,y,length) {
         }); 
 }
 
-function invokeDraw(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement) {
-    window.addEventListener("load", function(){renderDynamicImage(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement)}, false);
-}
 function invokeDraw(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement) {
     window.addEventListener("load", function(){renderDynamicImage(img,spriteW,spriteH,renderSpeed,x,y,adjustMovement)}, false);
 }
