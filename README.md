@@ -7,4 +7,4 @@ Wrote a game in javascript to cover most language features while keeping the cod
 Up arrow key to jump.
 
 
-![](js-game.gif)
+![](js/js-game.gif)
