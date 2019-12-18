@@ -5,3 +5,6 @@ Wrote a game in javascript to cover most language features while keeping the cod
 # To play game
 
 Up arrow key to jump.
+
+
+![](js-game.gif)
