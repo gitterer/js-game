@@ -333,7 +333,6 @@ SpriteProcessing.prototype.renderCoin  = function (imgSrc,spriteW,spriteH,static
         img.src = imgSrc;
         img.addEventListener('load',function(e)  {
         this.cycle = 0;
-        //Note to self an array in a function setinterval leads to  undefined behavior
         var intervalIDStatic = setInterval(function render() {
             staticIncrementator = 0;
             for(var i = 0; i< length ;i++){
